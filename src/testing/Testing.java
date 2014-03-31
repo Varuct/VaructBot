@@ -9,7 +9,7 @@ public class Testing extends PircBot
     {
         MyBot bot = new MyBot();
         bot.setVerbose(true);
-        bot.connect("irc.twitch.tv", 6667, "oauth:olwvp3qjls791d0hagk9smdln0eqqgy");
+        bot.connect("irc.twitch.tv", 6667, "");
         bot.joinChannel(MyBot.CHANNEL);
     }
 }
